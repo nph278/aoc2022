@@ -7,3 +7,4 @@
 (define totals (sort (map (lambda (l) (apply + l)) data) >))
 
 (apply + (take totals 3))
+
